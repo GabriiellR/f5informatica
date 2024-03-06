@@ -6,8 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#0f172a",
-        textPrimary: "#fff"
+        // background
+        corPrimaria: "#0f172a",
+        // cor fonte 1
+        corSecundaria: "",
+        // cor fonte 2
+        corTerciaria: ""
       },
     },
   },
