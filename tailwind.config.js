@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         // background
-        corPrimaria: "#01080E", //azul marca #043156
+        corPrimaria: "#1d4567", //azul marca #043156
         // cor fonte
         corFonte: "#fff",
         // cor detalhes ex:botoes
