@@ -7,8 +7,10 @@ export default (() => {
 
     return <>
         <Cabecalho />
-        <NavegacaoInferior />
-        <Outlet />
+        <div className="min-h-screen">
+            <Outlet />
+        </div>
         <Rodape />
+        <NavegacaoInferior />
     </>
 })

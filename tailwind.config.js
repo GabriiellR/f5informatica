@@ -8,11 +8,11 @@ module.exports = {
     extend: {
       colors: {
         // background
-        corPrimaria: "#1d4567", //azul marca #043156
+        corPrimaria: "#FE7A36", //azul marca #1d4567
         // cor fonte
         corFonte: "#fff",
         // cor detalhes ex:botoes
-        corSecundaria: "#FE7A36",
+        corSecundaria: "#1d4567",
 
       },
     },
