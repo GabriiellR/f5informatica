@@ -23,7 +23,8 @@ export default (() => {
                         </span>
                     </button>
 
-                    <span className="font-bold hover:text-corSecundaria">F5 Informática</span>
+                    <span className="font-bold hover:text-corSecundaria hidden lg:block">F5 Informática</span>
+                    <span className="font-bold hover:text-corSecundaria lg:hidden">F5</span>
                 </div>
 
                 <nav className="hidden md:flex">
@@ -68,7 +69,7 @@ export default (() => {
             </Sidebar>
         }
 
-        <motion.div className="fixed left-0 right-0 top-0 h-2 bg-corSecundaria rounded-2xl z-50 origin-origin0"
+        <motion.div className="fixed left-0 right-0 top-0 h-2 bg-corSecundaria rounded-2xl z-50 origin-left"
             style={{ scaleX: scrollYProgress }} />
     </>
 });

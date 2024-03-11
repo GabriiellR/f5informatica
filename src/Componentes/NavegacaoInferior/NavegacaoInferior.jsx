@@ -15,7 +15,7 @@ export default (() => {
                 </Link>
                 <Link to="/sobrenos" className={`inline-flex flex-col items-center justify-center px-5 hover:bg-corSecundaria ${pagina.pathname == '/sobrenos' ? 'bg-corSecundaria' : ''}`}>
                     <FontAwesomeIcon icon={faPeopleGroup} />
-                    <span className="text-corFonte">Sobre nós</span>
+                    <span className="text-corFonte">Sobre</span>
                 </Link>
                 <Link to="/servicos" className={`inline-flex flex-col items-center justify-center px-5 hover:bg-corSecundaria ${pagina.pathname == '/servicos' ? 'bg-corSecundaria' : ''}`}>
                     <FontAwesomeIcon icon={faDesktop} />
@@ -28,5 +28,4 @@ export default (() => {
             </div>
         </div>
     </>
-
 })

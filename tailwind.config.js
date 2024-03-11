@@ -14,9 +14,15 @@ module.exports = {
         // cor detalhes ex:botoes
         corSecundaria: "#1d4567",
       },
-      transformOrigin: {
-        origin0: "0%",
+
+      backgroundImage: {
+        Inicio: "url('/src/Imagens/Inicio/pessoas.jpg')",
+      },
+
+      minHeight: {
+        screen: "90vh"
       }
+
     },
   },
   plugins: [
