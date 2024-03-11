@@ -13,8 +13,10 @@ module.exports = {
         corFonte: "#fff",
         // cor detalhes ex:botoes
         corSecundaria: "#1d4567",
-
       },
+      transformOrigin: {
+        origin0: "0%",
+      }
     },
   },
   plugins: [
