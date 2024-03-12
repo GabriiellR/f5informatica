@@ -8,6 +8,7 @@ export default ((props) => {
     return (
         <>
             <Swiper
+                className="mySwiper"
                 navigation={true}
                 slidesPerView={3}
                 spaceBetween={30}
@@ -15,7 +16,6 @@ export default ((props) => {
                     clickable: true,
                 }}
                 modules={[Pagination, Navigation]}
-                className="mySwiper"
                 breakpoints={{
                     200: {
                         slidesPerView: 1,
@@ -35,7 +35,7 @@ export default ((props) => {
             >
                 {props.slide &&
                     props.slide.map((slide, index) => (
-                        <SwiperSlide key={index}>{slide}</SwiperSlide>
+                        <SwiperSlide className="text-center text-lg bg-transparent flex justify-center items-center" key={index}>{slide}</SwiperSlide>
                     ))
                 }
             </Swiper>

@@ -25,7 +25,6 @@ function App() {
           <Route path="/contato" element={<Contato />} />
           <Route path="*" element={"Página nao existe"} />
         </Route>
-
       </Routes>
     </AnimatePresence>
 

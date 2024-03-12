@@ -76,9 +76,6 @@ const Inicio = (() => {
                     imagem={informatica}
                 />, ]}
                 />
-
-
-
             </div>
 
         </div>
