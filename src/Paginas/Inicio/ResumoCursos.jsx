@@ -6,7 +6,7 @@ export default (() => {
     return (<>
         <div className="min-h-screen bg-gradient-to-b from-corPrimaria to-black flex flex-col p-10" id="cursos">
 
-            <div className="text-corFonte text-3xl font-bold ">Conheça nossos cursos</div>
+            <div className="text-corFonte text-3xl font-bold text-center">Conheça nossos <span className="rounded-md px-2 py-1 bg-corSecundaria">cursos</span></div>
 
             <div className="mt-14 ">
 

@@ -20,7 +20,7 @@ export default (() => {
 
             <div className="flex flex-col w-full min-h-screen justify-center items-center z-30 font-serif">
                 <div className="text-corFonte z-30 flex flex-col text-center font-bold">
-                    <p className="text-3xl">Eleve o seu conhecimento com F5 Informática:</p>
+                    <p className="text-3xl">Eleve o seu conhecimento com a F5 Informática:</p>
                     <p className="text-corPrimaria text-2xl"><Typewriter
                         options={{
                             strings: frases,
