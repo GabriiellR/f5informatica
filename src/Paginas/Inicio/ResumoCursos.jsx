@@ -1,14 +1,16 @@
 import CardImage from "../../Componentes/Card/CardImage";
 import informatica from '../../Imagens/Cursos/informatica.jpg'
 import SwiperCard from "../../Componentes/Swiper/SwiperCard";
+import { useEffect } from "react";
 
 export default (() => {
+    
     return (<>
         <div className="min-h-screen bg-gradient-to-b from-corPrimaria to-black flex flex-col p-10" id="cursos">
 
-            <div className="text-corFonte text-3xl font-bold text-center">Conheça nossos <span className="rounded-md px-2 py-1 bg-corSecundaria">cursos</span></div>
+            <div className="text-corFonte text-3xl font-bold text-center">Conheça nossos <span className="rounded-md px-2 py-1 bg-corSecundaria" data-aos="fade-left" data-aos-duration="1500">cursos</span></div>
 
-            <div className="mt-14 ">
+            <div className="mt-14" data-aos="fade-right" data-aos-duration="1500">
 
                 <SwiperCard
                     slide={[<CardImage
