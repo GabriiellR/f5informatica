@@ -1,3 +1,5 @@
+import Counter from "../../Componentes/Counter/Counter";
+
 export default (() => {
     const anoNascimento = 2003;
     const idade = new Date().getFullYear() - anoNascimento;
@@ -8,22 +10,22 @@ export default (() => {
 
             <div className="flex w-full justify-around flex-wrap mt-10 gap-3" data-aos="fade-right" data-aos-duration="1500">
                 <div className="h-40 w-48 flex flex-col justify-center items-center gap-4 text-corFonte ">
-                    <span className="text-6xl font-semibold">{idade}</span>
+                    <span className="text-6xl font-semibold"><Counter numero={idade} /> </span>
                     <span className="">ANOS DE HISTÓRIA</span>
                 </div>
 
                 <div className="h-40 w-48 flex flex-col justify-center items-center gap-4 text-corFonte ">
-                    <span className="text-6xl font-semibold">+5000</span>
+                    <span className="text-6xl font-semibold">+{<Counter numero={5000} />}</span>
                     <span className="text-center">ATENDIMENTOS POR MÊS</span>
                 </div>
 
                 <div className="h-40 w-48 flex flex-col justify-center items-center gap-4 text-corFonte ">
-                    <span className="text-6xl font-semibold">+6280</span>
+                    <span className="text-6xl font-semibold">+{<Counter numero={6280} />}</span>
                     <span className="">ALUNOS FORMADOS</span>
                 </div>
 
                 <div className="h-40 w-48 flex flex-col justify-center items-center gap-4 text-corFonte ">
-                    <span className="text-6xl font-semibold">+500</span>
+                    <span className="text-6xl font-semibold">+{<Counter numero={500} />}</span>
                     <span className="">CURSOS OFERECIDOS</span>
                 </div>
             </div>

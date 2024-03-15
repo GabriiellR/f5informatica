@@ -1,11 +1,6 @@
-import TransicaoPagina from "../../Componentes/TransicaoPagina/TransicaoPagina";
 import Typewriter from "typewriter-effect";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownLong } from "@fortawesome/free-solid-svg-icons";
-import CardImage from "../../Componentes/Card/CardImage";
-import SwiperCard from "../../Componentes/Swiper/SwiperCard";
-
-import informatica from '../../Imagens/Cursos/informatica.jpg'
 
 export default (() => {
 
@@ -15,7 +10,7 @@ export default (() => {
         "Prepare-se para voos mais altos!"
     ];
     return (<>
-        <div className="bg-Inicio min-h-screen bg-no-repeat bg-cover bg-fixed relative">
+        <div className="bg-Inicio min-h-screen bg-no-repeat bg-cover md:bg-fixed relative">
             <div className="min-h-screen min-w-full bg-black opacity-50 absolute inset-0"> </div>
 
             <div className="flex flex-col w-full min-h-screen justify-center items-center z-30 font-serif">

@@ -1,7 +1,6 @@
 import CardImage from "../../Componentes/Card/CardImage";
 import informatica from '../../Imagens/Cursos/informatica.jpg'
 import SwiperCard from "../../Componentes/Swiper/SwiperCard";
-import { useEffect } from "react";
 
 export default (() => {
     

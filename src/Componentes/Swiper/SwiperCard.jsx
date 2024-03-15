@@ -19,7 +19,7 @@ export default ((props) => {
                 breakpoints={{
                     200: {
                         slidesPerView: 1,
-                        pavigation:false
+                        pavigation: false
                     },
                     800: {
                         slidesPerView: 2
@@ -28,6 +28,9 @@ export default ((props) => {
                         slidesPerView: 3
                     },
                     1500: {
+                        slidesPerView: 3
+                    },
+                    1750: {
                         slidesPerView: 4
                     }
                 }}
