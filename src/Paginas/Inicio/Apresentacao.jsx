@@ -14,9 +14,9 @@ export default (() => {
             <div className="min-h-screen min-w-full bg-black opacity-50 absolute inset-0"> </div>
 
             <div className="flex flex-col w-full min-h-screen justify-center items-center z-30 font-serif">
-                <div className="text-corFonte z-30 flex flex-col text-center font-bold">
-                    <p className="text-3xl">Eleve o seu conhecimento com a F5 Informática:</p>
-                    <p className="text-corPrimaria text-2xl"><Typewriter
+                <div className="text-corFonte z-30 flex flex-col text-center font-bold p-2">
+                    <p className="text-lg md:text-3xl">Eleve o seu conhecimento com a F5 Informática:</p>
+                    <p className="text-base text-corPrimaria md:text-2xl"><Typewriter
                         options={{
                             strings: frases,
                             autoStart: true,

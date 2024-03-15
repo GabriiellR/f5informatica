@@ -1,5 +1,4 @@
-import { motion } from 'framer-motion'
-import { useState, useEffect } from 'react'
+import { motion } from 'framer-motion';
 
 export default ((Componente) => {
 
@@ -11,7 +10,6 @@ export default ((Componente) => {
                 initial={{ scaleX: 0 }}
                 animate={{ scaleX: [0, 1, 0], transition: { duration: 2 } }}
                 exit={{ scaleY: 0 }}
-            // onAnimationComplete={}
             >
             </motion.div>
         </>
