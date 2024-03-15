@@ -11,7 +11,7 @@ export default (() => {
                 <div className="text-corFonte text-xl font-semibold text-center mt-2">Assista e aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. nossa plataforma, com sua notável responsividade, adapta-se perfeitamente a qualquer dispositivo, garantindo uma experiência fluida e cativante, onde quer que você esteja.</div>
             </div>
 
-            <div className='flex flex-wrap justify-around grid-cols-6' data-aos="fade-right" data-aos-duration="1500">
+            <div className='flex flex-wrap justify-around grid-cols-6' data-aos="fade-left" data-aos-duration="2500">
                 <img className='' src={Devices} />
             </div>
 

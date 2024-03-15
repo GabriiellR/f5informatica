@@ -1,4 +1,4 @@
-import { Accordion } from "flowbite-react"
+import Accordion from "../../Componentes/Accordion/Accordion"
 
 export default (() => {
     return (<>
@@ -7,18 +7,30 @@ export default (() => {
 
             <div className="mt-14" data-aos="fade-left" data-aos-duration="1500">
 
-                <Accordion collapseAll className="border-none focus:border-none">
-                    <Accordion.Panel >
-                        <Accordion.Title className="focus:border-none bg-gray-900 h-20 text-corFonte hover:bg-corSecundaria border-none">O que é a f5 informática?</Accordion.Title>
-                        <Accordion.Content className="bg-corSecundaria text-corFonte">
-                            <p className="mb-2">
-                                Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons,
-                                dropdowns, modals, navbars, and more.
-                            </p>
-                        </Accordion.Content>
-                    </Accordion.Panel>
-                </Accordion>
+                <Accordion
+                    titulo="O que é a f5 informática?"
+                    descricao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+                />
 
+                <Accordion
+                    titulo="Quais os meios de pagamento posso utilizar?"
+                    descricao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+                />
+
+                <Accordion
+                    titulo="Qual o horário de atendimento da f5 informática?"
+                    descricao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+                />
+
+                <Accordion
+                    titulo="Como cancelar os serviços contratados?"
+                    descricao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+                />
+
+                <Accordion
+                    titulo="Lorem Ipsum is simply dummy?"
+                    descricao="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+                />
 
             </div>
         </div>
