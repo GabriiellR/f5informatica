@@ -4,7 +4,7 @@ export default ((props) => {
 
     return (
         <>
-            <div class="max-w-sm bg-gray-900 border border-gray-200 rounded-lg shadow hover:shadow-2xl ">
+            <div class="max-w-80 bg-gray-900 border border-gray-200 rounded-lg shadow hover:shadow-2xl ">
 
                 <img class="rounded-t-lg w-full" src={props.imagem} alt="" />
 

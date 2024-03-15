@@ -14,27 +14,27 @@ export default (() => {
                 <SwiperCard
                     slide={[<CardImage
                         titulo="Informática para adultos"
-                        descricao="Curso voltado para o público adulto e terceira idade para aprender a utilizar o computador e seus recursos básicos, além de uma abordagem ampla no uso da internet."
+                        descricao="Curso voltado para o público adulto e terceira idade para aprender a utilizar o computador e seus recursos básicos. "
                         imagem={informatica}
                     />,
                     <CardImage
                         titulo="Informática para adultos"
-                        descricao="Curso voltado para o público adulto e terceira idade para aprender a utilizar o computador e seus recursos básicos, além de uma abordagem ampla no uso da internet."
+                        descricao="Curso voltado para o público adulto e terceira idade para aprender a utilizar o computador e seus recursos básicos."
                         imagem={informatica}
                     />,
                     <CardImage
                         titulo="Informática para adultos"
-                        descricao="Curso voltado para o público adulto e terceira idade para aprender a utilizar o computador e seus recursos básicos, além de uma abordagem ampla no uso da internet."
+                        descricao="Curso voltado para o público adulto e terceira idade para aprender a utilizar o computador e seus recursos básicos."
                         imagem={informatica}
                     />,
                     <CardImage
                         titulo="Informática para adultos"
-                        descricao="Curso voltado para o público adulto e terceira idade para aprender a utilizar o computador e seus recursos básicos, além de uma abordagem ampla no uso da internet."
+                        descricao="Curso voltado para o público adulto e terceira idade para aprender a utilizar o computador e seus recursos básicos."
                         imagem={informatica}
                     />,
                     <CardImage
                         titulo="Informática para adultos"
-                        descricao="Curso voltado para o público adulto e terceira idade para aprender a utilizar o computador e seus recursos básicos, além de uma abordagem ampla no uso da internet."
+                        descricao="Curso voltado para o público adulto e terceira idade para aprender a utilizar o computador e seus recursos básicos."
                         imagem={informatica}
                     />,]}
                 />
