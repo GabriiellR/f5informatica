@@ -12,6 +12,7 @@ export default ((props) => {
                 navigation={true}
                 slidesPerView={3}
                 spaceBetween={30}
+                grabCursor={true}
                 pagination={{
                     clickable: true,
                 }}

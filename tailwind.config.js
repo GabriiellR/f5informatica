@@ -17,6 +17,7 @@ module.exports = {
 
       backgroundImage: {
         Inicio: "url('/src/Imagens/Inicio/pessoas.jpg')",
+        Sobrenos: "url('/src/Imagens/Sobrenos/sobrenos.jpg')",
       },
 
       minHeight: {
