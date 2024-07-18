@@ -7,22 +7,28 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // background
-        corPrimaria: "#FE7A36", //azul marca #1d4567
-        // cor fonte
+        corPrimaria: "#FE7A36",
         corFonte: "#fff",
-        // cor detalhes ex:botoes
         corSecundaria: "#1d4567",
       },
 
       backgroundImage: {
         Inicio: "url('/src/Imagens/Inicio/pessoas.jpg')",
         Sobrenos: "url('/src/Imagens/Sobrenos/sobrenos.jpg')",
+
+        ServicosCurso: "url('/src/Imagens/Servicos/Cursos.jpg')",
+        ServicosLanHouse: "url('/src/Imagens/Servicos/LanHouse.jpg')",
+        ServicosRepairDevices: "url('/src/Imagens/Servicos/RepairDevices.jpg')",
+        ServicosStorage: "url('/src/Imagens/Servicos/Storage.jpg')",
       },
 
       minHeight: {
         screen: "90vh"
       },
+
+      aspectRatio: {
+        '4/2': '4/2',
+      }
 
     },
   },

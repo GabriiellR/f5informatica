@@ -1,11 +1,11 @@
-import { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+import { useEffect } from "react";
 import PaginaPadrao from "./Paginas/PaginaPadrao.jsx";
 import Inicio from "./Paginas/Inicio/Inicio.jsx";
 
-import { AnimatePresence } from "framer-motion";
 import Sobrenos from "./Paginas/Sobrenos/Sobrenos.jsx";
-import Cursos from "./Paginas/Cursos/Cursos.jsx";
+import Galeria from "./Paginas/Galeria/Galeria.jsx";
 import Servicos from "./Paginas/Servicos/Servicos.jsx";
 import Contato from "./Paginas/Contato/Contato.jsx";
 import Aos from "aos";
@@ -27,7 +27,7 @@ function App() {
         <Route path="/" element={<PaginaPadrao />} >
           <Route path="/" element={<Inicio />} />
           <Route path="/sobrenos" element={<Sobrenos />} />
-          <Route path="/cursos" element={<Cursos />} />
+          <Route path="/galeria" element={<Galeria />} />
           <Route path="/servicos" element={<Servicos />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="*" element={"Página nao existe"} />

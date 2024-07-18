@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faHome, faPeopleGroup, faBookOpen, faDesktop, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faHome, faPeopleGroup, faBookOpen, faDesktop, faPhone, faCamera } from "@fortawesome/free-solid-svg-icons";
 import { Sidebar } from "flowbite-react";
 import { useState } from "react";
 import { motion, useScroll } from "framer-motion";
@@ -31,8 +31,8 @@ export default (() => {
                     <ul className="flex gap-7">
                         <Link to="/" className={`hover:text-corSecundaria p-2 font-bold ${pagina.pathname == '/' ? 'text-corSecundaria' : ''}`} href="#">Início</Link>
                         <Link to="sobrenos" className={`hover:text-corSecundaria p-2 font-bold ${pagina.pathname == '/sobrenos' ? 'text-corSecundaria' : ''}`} href="#">Sobre nós</Link>
-                        <Link to="cursos" className={`hover:text-corSecundaria p-2 font-bold ${pagina.pathname == '/cursos' ? 'text-corSecundaria' : ''}`} href="#">Cursos</Link>
                         <Link to="servicos" className={`hover:text-corSecundaria p-2 font-bold ${pagina.pathname == '/servicos' ? 'text-corSecundaria' : ''}`} href="#">Serviços</Link>
+                        <Link to="galeria" className={`hover:text-corSecundaria p-2 font-bold ${pagina.pathname == '/galeria' ? 'text-corSecundaria' : ''}`} href="#">Galeria</Link>
                         <Link to="contato" className={`hover:text-corSecundaria p-2 font-bold ${pagina.pathname == '/contato' ? 'text-corSecundaria' : ''}`} href="#">Contato</Link>
                     </ul>
                 </nav>
@@ -43,26 +43,26 @@ export default (() => {
 
         {toggleSidebar &&
 
-            <Sidebar className="bg-corSecundaria w-full">
+            <Sidebar className="bg-corSecundaria w-full fixed z-50">
                 <Sidebar.Items>
                     <Sidebar.ItemGroup className="py-4 px-2">
                         <Sidebar.Item className={`text-corFonte hover:bg-corPrimaria ${pagina.pathname == '/' ? 'bg-corPrimaria' : ''}`}>
-                            <Link to="/"><FontAwesomeIcon icon={faHome} />  Início</Link>
+                            <Link onClick={(() => toggleSidebar == true ? setToggleSidebar(false) : setToggleSidebar(true))} to="/"><FontAwesomeIcon icon={faHome} />  Início</Link>
                         </Sidebar.Item>
                         <Sidebar.Item  className={`text-corFonte hover:bg-corPrimaria ${pagina.pathname == '/sobrenos' ? 'bg-corPrimaria' : ''}`}>
-                            <Link to="/sobrenos"> <FontAwesomeIcon icon={faPeopleGroup} /> Sobre nós</Link>
+                            <Link onClick={(() => toggleSidebar == true ? setToggleSidebar(false) : setToggleSidebar(true))} to="/sobrenos"> <FontAwesomeIcon icon={faPeopleGroup} /> Sobre nós</Link>
                         </Sidebar.Item>
-                        <Sidebar.Item className={`text-corFonte hover:bg-corPrimaria ${pagina.pathname == '/cursos' ? 'bg-corPrimaria' : ''}`}>
-                            <Link to="/cursos"> <FontAwesomeIcon icon={faBookOpen} /> Cursos</Link>
+                        <Sidebar.Item className={`text-corFonte hover:bg-corPrimaria ${pagina.pathname == '/galeria' ? 'bg-corPrimaria' : ''}`}>
+                            <Link onClick={(() => toggleSidebar == true ? setToggleSidebar(false) : setToggleSidebar(true))} to="/galeria"> <FontAwesomeIcon icon={faCamera} /> Galeria</Link>
                         </Sidebar.Item>
                         <Sidebar.Item className={`text-corFonte hover:bg-corPrimaria ${pagina.pathname == '/servicos' ? 'bg-corPrimaria' : ''}`}>
-                            <Link to="/servicos"> <FontAwesomeIcon icon={faDesktop} /> Serviços</Link>
+                            <Link onClick={(() => toggleSidebar == true ? setToggleSidebar(false) : setToggleSidebar(true))} to="/servicos"> <FontAwesomeIcon icon={faDesktop} /> Serviços</Link>
                         </Sidebar.Item>
                         <Sidebar.Item className={`text-corFonte hover:bg-corPrimaria ${pagina.pathname == '/contato' ? 'bg-corPrimaria' : ''}`}>
-                            <Link to="/contato"> <FontAwesomeIcon icon={faPhone} /> Contato</Link>
+                            <Link onClick={(() => toggleSidebar == true ? setToggleSidebar(false) : setToggleSidebar(true))} to="/contato"> <FontAwesomeIcon icon={faPhone} /> Contato</Link>
                         </Sidebar.Item>
 
-                        <div className="py-2"><button type="button" class="text-corFonte hover:text-corSecundaria font-bold bg-corPrimaria rounded-full py-3 text-center w-full">Entrar</button></div>
+                        {/* <div className="py-2"><button type="button" class="text-corFonte hover:text-corSecundaria font-bold bg-corPrimaria rounded-full py-3 text-center w-full">Entrar</button></div> */}
 
                     </Sidebar.ItemGroup>
                 </Sidebar.Items>

@@ -5,7 +5,6 @@ const Sobrenos = (() => {
 
 
         <div className="min-h-screen bg-gradient-to-r from-corSecundaria  to-corPrimaria text-corFonte ">
-            <div>Sobrenos</div>
             <div>
                 A F5 Informática foi fundada em 24 de novembro de 2003, na regional Vargem das Flores, em Contagem, estado de Minas Gerais, emergindo de um contexto sócio-econômico desafiador, comum a grande parte da população brasileira. Ao longo dos anos, enfrentamos dificuldades e superamos obstáculos, crescendo apesar das adversidades enfrentadas.
                 Desde o início de nossa trajetória, nosso foco tem sido em fornecer soluções tecnológicas e assistência às pessoas. Desde tenra idade, dedicamo-nos à prestação de serviços de manutenção de computadores, venda de suprimentos e periféricos de tecnologia, operação de LanHouse, oferta de cursos profissionalizantes e uma gama diversificada de serviços na área de tecnologia. Hoje, com 18 anos de atuação, estamos completamente imersos no mundo da tecnologia, destacando-nos não apenas por nossos serviços, mas também pelo impacto social positivo que geramos em Nova Contagem e nos bairros circunvizinhos.

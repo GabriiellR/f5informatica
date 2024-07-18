@@ -6,7 +6,7 @@ export default (() => {
 
     return (<>
         <div className="bg-gradient-to-b from-corSecundaria to-black flex flex-col p-10 text-center">
-            <div className="text-corFonte text-3xl font-bold" data-aos="fade-left" data-aos-duration="1500">Nossas Conquistas</div>
+            <div className="text-corFonte text-3xl font-bold" data-aos="fade-right" data-aos-duration="1500">Nossas Conquistas</div>
 
             <div className="flex w-full justify-around flex-wrap mt-10 gap-3" data-aos="fade-right" data-aos-duration="1500">
                 <div className="h-40 w-48 flex flex-col justify-center items-center gap-4 text-corFonte ">

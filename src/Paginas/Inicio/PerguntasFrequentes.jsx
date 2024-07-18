@@ -5,7 +5,7 @@ export default (() => {
         <div className="min-h-screen bg-gradient-to-b from-black to-corPrimaria flex flex-col p-10">
             <div className="text-corFonte text-3xl font-bold" data-aos="fade-right" data-aos-duration="1500">Perguntas Frequentes</div>
 
-            <div className="mt-14" data-aos="fade-left" data-aos-duration="1500">
+            <div className="mt-14" data-aos="fade-right" data-aos-duration="1500">
 
                 <Accordion
                     titulo="O que é a f5 informática?"
