@@ -14,7 +14,7 @@ const Contato = (() => {
                 <div className="flex w-full justify-around flex-wrap mt-10 gap-3" data-aos="fade-right" data-aos-duration="1500">
                     <div className="h-40 w-48 flex flex-col justify-center items-center gap-4 text-corFonte ">
                         <span className="text-6xl font-semibold"><FontAwesomeIcon icon={faWhatsapp} /></span>
-                        <span className="">(31) 98864-1232</span>
+                        <a href="https://api.whatsapp.com/send/?phone=31988641232&text=Ola+tenho+interesse+nos+produtos+da+loja&type=phone_number&app_absent=0" target="_BLANK"><span className="">(31) 98864-1232</span></a>
                     </div>
 
                     <div className="h-40 w-48 flex flex-col justify-center items-center gap-4 text-corFonte ">

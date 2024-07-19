@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 
 
 export default (() => {
@@ -14,16 +16,16 @@ export default (() => {
             </span>
             <ul class="flex flex-wrap items-center mt-3 text-sm font-medium gap-4">
                 <li>
-                    <a href="#" class="hover:text-corPrimaria"><FontAwesomeIcon icon={faInstagram} /></a>
+                    <a href="#https://www.instagram.com/f5informatica_oficial/" target="_BLANK" class="hover:text-corPrimaria"><FontAwesomeIcon icon={faInstagram} /></a>
                 </li>
                 <li>
-                    <a href="#" class="hover:text-corPrimaria"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    <a href="https://api.whatsapp.com/send/?phone=31988641232&text=Ola+tenho+interesse+nos+produtos+da+loja&type=phone_number&app_absent=0" target="_BLANK" class="hover:text-corPrimaria"><FontAwesomeIcon icon={faWhatsapp} /></a>
                 </li>
                 <li>
-                    <a href="#" class="hover:text-corPrimaria"><FontAwesomeIcon icon={faYoutube} /></a>
+                    <a href="mailto:atendimentosac@outlook.com?subject=Informe o assunto&body=Escreva o conteúdo do e-mail" target="_BLANK" class="hover:text-corPrimaria"><FontAwesomeIcon icon={faEnvelope} /></a>
                 </li>
                 <li>
-                    <a href="#" class="hover:text-corPrimaria"><FontAwesomeIcon icon={faFacebook} /></a>
+                    <a href="https://www.facebook.com/f5informaticaoficial/?locale=pt_BR" target="_BLANK" class="hover:text-corPrimaria"><FontAwesomeIcon icon={faFacebook} /></a>
                 </li>
             </ul>
         </footer>
