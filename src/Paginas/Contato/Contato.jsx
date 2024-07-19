@@ -19,13 +19,13 @@ const Contato = (() => {
 
                     <div className="h-40 w-48 flex flex-col justify-center items-center gap-4 text-corFonte ">
                         <span className="text-6xl font-semibold"><FontAwesomeIcon icon={faEnvelope} /></span>
-                        <span className="">atendimentosac@outlook.com</span>
+                        <a href="mailto:atendimentosac@outlook.com?subject=Informe o assunto&body=Escreva o conteúdo do e-mail" className="" >atendimentosac@outlook.com</a>
                     </div>
 
                     <div className="h-40 w-48 flex flex-col justify-center items-center gap-4 text-corFonte ">
                         <span className="text-6xl font-semibold"><FontAwesomeIcon icon={faPhone} /></span>
-                        <span className="text-center">(31) 3911-7427</span>
-                        <span className="text-center">(31) 3160-9228</span>
+                        <a href="tel:+553139117427" className="text-center">(31) 3911-7427</a>
+                        <a href="tel:+553131609228" className="text-center">(31) 3160-9228</a>
                     </div>
 
                     <div className="h-40 w-50 flex flex-col justify-center items-center gap-4 text-corFonte ">

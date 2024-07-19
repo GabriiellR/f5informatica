@@ -37,7 +37,7 @@ export default (() => {
                     </ul>
                 </nav>
 
-                <div><a href="https://api.whatsapp.com/send/?phone=31988641232&text=Olá+quero+me+matricular!&type=phone_number&app_absent=0" class="text-corFonte hover:text-corPrimaria font-bold bg-corSecundaria focus:outline-none focus:ring-4 focus:ring-blue-300 rounded-full text-sm px-4 py-2.5 text-center me-1">Matricule-se</a></div>
+                <div><a href="https://api.whatsapp.com/send/?phone=31988641232&text=Olá+quero+me+matricular!&type=phone_number&app_absent=0" target="_BLANK" class="text-corFonte hover:text-corPrimaria font-bold bg-corSecundaria focus:outline-none focus:ring-4 focus:ring-blue-300 rounded-full text-sm px-4 py-2.5 text-center me-1">Matricule-se</a></div>
             </div>
         </header>
 

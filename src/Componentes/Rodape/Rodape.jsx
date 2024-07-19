@@ -2,8 +2,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-
-
 export default (() => {
 
     var anoAtual = new Date().getFullYear();
@@ -16,7 +14,7 @@ export default (() => {
             </span>
             <ul class="flex flex-wrap items-center mt-3 text-sm font-medium gap-4">
                 <li>
-                    <a href="#https://www.instagram.com/f5informatica_oficial/" target="_BLANK" class="hover:text-corPrimaria"><FontAwesomeIcon icon={faInstagram} /></a>
+                    <a href="https://www.instagram.com/f5informatica_oficial/" target="_BLANK" class="hover:text-corPrimaria"><FontAwesomeIcon icon={faInstagram} /></a>
                 </li>
                 <li>
                     <a href="https://api.whatsapp.com/send/?phone=31988641232&text=Ola+tenho+interesse+nos+produtos+da+loja&type=phone_number&app_absent=0" target="_BLANK" class="hover:text-corPrimaria"><FontAwesomeIcon icon={faWhatsapp} /></a>
@@ -29,8 +27,6 @@ export default (() => {
                 </li>
             </ul>
         </footer>
-
     </>
-
     )
 })

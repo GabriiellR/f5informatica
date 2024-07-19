@@ -20,11 +20,6 @@ export default () => {
 
   const options = useMemo(
     () => ({
-      background: {
-        color: {
-          value: "#1d1e22",
-        },
-      },
       fpsLimit: 120,
       interactivity: {
         events: {
