@@ -4,7 +4,6 @@ import ParticlesSobreenos from '../../Componentes/Particles/Particles.jsx'
 
 const Sobrenos = (() => {
     return (<>
-
         <div className="bg-gradient-to-l from-black via-corSecundaria to-black">
             <ParticlesSobreenos />
             <Timeline conteudos={
